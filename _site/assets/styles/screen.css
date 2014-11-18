@@ -19,12 +19,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /* No files to import found in molecules/**\/* */
 /* No files to import found in organisms/**\/* */
 /* No files to import found in structures/**\/* */
-html body #first-slide { display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */ display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */ display: -ms-flexbox; /* TWEENER - IE 10 */ display: -webkit-flex; /* NEW - Chrome */ display: flex; /* NEW, Spec - Opera 12.1, Firefox 20+ */ -webkit-box-direction: normal; -moz-box-direction: normal; -webkit-box-orient: vertical; -moz-box-orient: vertical; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; height: 90vh; }
-html body #first-slide #header { -webkit-box-ordinal-group: 1; -moz-box-ordinal-group: 1; -webkit-order: 0; -ms-flex-order: 0; order: 0; -webkit-box-flex: 0; -webkit-flex-grow: 0; -moz-flex-grow: 0; -ms-flex-positive: 0; flex-grow: 0; -webkit-flex-shrink: 1; -moz-flex-shrink: 1; -ms-flex-negative: 1; flex-shrink: 1; -webkit-flex-basis: 10%; -moz-flex-basis: 10%; -ms-flex-preferred-size: 10%; flex-basis: 10%; -webkit-align-self: auto; -moz-align-self: auto; -ms-flex-item-align: auto; align-self: auto; }
-html body #first-slide #intro { -webkit-box-ordinal-group: 1; -moz-box-ordinal-group: 1; -webkit-order: 0; -ms-flex-order: 0; order: 0; -webkit-box-flex: 0; -webkit-flex-grow: 0; -moz-flex-grow: 0; -ms-flex-positive: 0; flex-grow: 0; -webkit-flex-shrink: 1; -moz-flex-shrink: 1; -ms-flex-negative: 1; flex-shrink: 1; -webkit-flex-basis: 65%; -moz-flex-basis: 65%; -ms-flex-preferred-size: 65%; flex-basis: 65%; -webkit-align-self: auto; -moz-align-self: auto; -ms-flex-item-align: auto; align-self: auto; }
-html body #about { min-height: 30em; }
-html body #works { position: relative; }
-html body #works article { background: grey; width: 95%; height: 90vh; margin: 5vh 2.5%; }
-html body #footer { min-height: 5em; }
-html body #header, html body #about, html body #footer { background: black; }
-html body #intro, html body #works { background: white; }
+html body #works { height: 100vh; position: relative; }
+html body #works h3 { display: none; }
+html body #works article { position: absolute; background: lightgrey; width: 95vw; height: 95vh; margin: 2.5vh 2.5vw; }
+html body #works article#iorad { background: #fff; width: 100vw; height: 100vh; margin: 0; display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */ display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */ display: -ms-flexbox; /* TWEENER - IE 10 */ display: -webkit-flex; /* NEW - Chrome */ display: flex; /* NEW, Spec - Opera 12.1, Firefox 20+ */ -webkit-box-direction: normal; -moz-box-direction: normal; -webkit-box-orient: vertical; -moz-box-orient: vertical; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -ms-flex-pack: center; -webkit-justify-content: center; -moz-justify-content: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; -webkit-align-items: center; -moz-align-items: center; align-items: center; }
+html body #works article#iorad figure img { width: 60%; padding: 2.5vw; background: #5A6E92; -moz-border-radius: 0.75vw; -webkit-border-radius: 0.75vw; border-radius: 0.75vw; }
+html body #works article#iorad p { display: none; }

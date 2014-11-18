@@ -1,45 +1,44 @@
 html {
   body {
-    #first-slide {
-      @include flexbox($direction: column);
-      height: 90vh;
-
-      #header {
-        @include flex-item($flex-basis: 10%);
-      }
-
-      #intro {
-        @include flex-item($flex-basis: 65%);
-      }
-    }
-
-    #about {
-      min-height: 30em;
-    }
-
     #works {
-      //height: 100vh;
+      height: 100vh;
       position: relative;
 
+      h3 {
+        display: none;
+      }
+
       article {
-        //position: absolute;
-        background: grey;
-        width: 95%;
-        height: 90vh;
-        margin: 5vh 2.5%;
+        position: absolute;
+        background: lightgrey;
+        width: 95vw;
+        height: 95vh;
+        margin: 2.5vh 2.5vw;
+
+        &#iorad {
+          //background: #729227;
+          background: #fff;
+          width: 100vw;
+          height: 100vh;
+          margin: 0;
+
+          @include flexbox($direction: column, $align-items: center, $justify-content: center);
+          figure {
+            img {
+              width: 60%;
+              padding: 2.5vw;
+              background: #5A6E92;
+              //border: 2.5vw solid #5D791A;
+              @include border-radius(.75vw);
+            }
+          }
+
+          p {
+            display: none;
+          }
+        }
       }
     }
 
-    #footer {
-      min-height: 5em;
-    }
-
-    #header, #about, #footer {
-      background: black;
-    }
-
-    #intro, #works {
-      background: white;
-    }
   }
 }
