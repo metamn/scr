@@ -1,0 +1,45 @@
+html {
+  body {
+    #first-slide {
+      @include flexbox($direction: column);
+      height: 90vh;
+
+      #header {
+        @include flex-item($flex-basis: 10%);
+      }
+
+      #intro {
+        @include flex-item($flex-basis: 65%);
+      }
+    }
+
+    #about {
+      min-height: 30em;
+    }
+
+    #works {
+      //height: 100vh;
+      position: relative;
+
+      article {
+        //position: absolute;
+        background: grey;
+        width: 95%;
+        height: 90vh;
+        margin: 5vh 2.5%;
+      }
+    }
+
+    #footer {
+      min-height: 5em;
+    }
+
+    #header, #about, #footer {
+      background: black;
+    }
+
+    #intro, #works {
+      background: white;
+    }
+  }
+}

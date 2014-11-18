@@ -1,0 +1,8 @@
+permalink: /:title
+
+title: Flexbox
+images: assets/images
+#url: http://metamn.github.io/scr
+
+
+exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', '_scripts/*']
