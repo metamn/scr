@@ -8,6 +8,10 @@ html {
       article {
         @include flexbox($wrap: wrap, $justify-content: center, $align-items: center);
 
+        background: #f1f1f1;
+        $color: #D7D7D7;
+        @include mockup-colors($color);
+
         figure {
           @include flexbox;
           padding: 10vh 2.5vw;
@@ -15,11 +19,6 @@ html {
           img {
             max-width: 100%;
             height: auto;
-          }
-
-          figcaption {
-            margin: 10vh 2.5vw;
-            padding: 10vh 2.5vw;
           }
         }
       }

@@ -4,30 +4,7 @@ html {
       article {
         //background: #3B485F;
         $color: #5A6E92;
-
-        figure {
-          &.tablet {
-            @include mockups('tablet', $color);
-          }
-
-          &.mobile {
-            @include mockups('mobile', $color);
-          }
-
-          &.desktop {
-            @include mockups('desktop', $color);
-          }
-
-          figcaption {
-            //color: #5A6E92;
-            font-size: 150%;
-
-            p {
-              margin-top: 1.25em;
-            }
-          }
-
-        }
+        @include mockup-colors($color);
       }
     }
   }

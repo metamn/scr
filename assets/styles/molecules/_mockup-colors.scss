@@ -1,0 +1,15 @@
+@mixin mockup-colors($color) {
+  figure {
+    &.tablet {
+      @include mockups('tablet', $color);
+    }
+
+    &.mobile {
+      @include mockups('mobile', $color);
+    }
+
+    &.desktop {
+      @include mockups('desktop', $color);
+    }
+  }
+}
