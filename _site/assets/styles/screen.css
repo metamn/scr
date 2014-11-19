@@ -23,7 +23,7 @@ html body section article { display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 
 html body section article figure.tablet img { padding: 1.25vw 3.75vw; background: #d7d7d7; -moz-border-radius: 2.5vw; -webkit-border-radius: 2.5vw; border-radius: 2.5vw; }
 html body section article figure.mobile img { padding: 10vh 1.25vw; background: #d7d7d7; -moz-border-radius: 2.5vw; -webkit-border-radius: 2.5vw; border-radius: 2.5vw; }
 html body section article figure.desktop img { padding: 2.5vh 0 0; background: #d7d7d7; -moz-border-radius: 0.25vw 0.25vw 0 0; -webkit-border-radius: 0.25vw; border-radius: 0.25vw 0.25vw 0 0; }
-html body section article figure { display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */ display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */ display: -ms-flexbox; /* TWEENER - IE 10 */ display: -webkit-flex; /* NEW - Chrome */ display: flex; /* NEW, Spec - Opera 12.1, Firefox 20+ */ padding: 10vh 2.5vw; }
+html body section article figure { display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */ display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */ display: -ms-flexbox; /* TWEENER - IE 10 */ display: -webkit-flex; /* NEW - Chrome */ display: flex; /* NEW, Spec - Opera 12.1, Firefox 20+ */ padding: 10vh 2.5vw 0 0; }
 html body section article figure img { max-width: 100%; height: auto; }
 
 html body #iorad article figure.tablet img { padding: 1.25vw 3.75vw; background: #5a6e92; -moz-border-radius: 2.5vw; -webkit-border-radius: 2.5vw; border-radius: 2.5vw; }

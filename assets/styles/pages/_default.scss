@@ -14,7 +14,7 @@ html {
 
         figure {
           @include flexbox;
-          padding: 10vh 2.5vw;
+          padding: 10vh 2.5vw 0 0;
 
           img {
             max-width: 100%;
