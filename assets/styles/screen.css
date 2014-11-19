@@ -35,3 +35,8 @@ html body #occrp article { background: #f1f1f1; }
 html body #occrp article figure.tablet img { padding: 3.75vw; background: #666666; -moz-border-radius: 1.25vw; -webkit-border-radius: 1.25vw; border-radius: 1.25vw; }
 html body #occrp article figure.mobile img { padding: 7.5vh 1.25vw; background: #666666; -moz-border-radius: 2.5vw; -webkit-border-radius: 2.5vw; border-radius: 2.5vw; }
 html body #occrp article figure.desktop img { border-top: 3.75vh solid #666666; -moz-border-radius: 0.75vw 0.75vw 0 0; -webkit-border-radius: 0.75vw; border-radius: 0.75vw 0.75vw 0 0; }
+
+html body #scatter article { background: #f1f1f1; }
+html body #scatter article figure.tablet img { padding: 3.75vw; background: #363636; -moz-border-radius: 1.25vw; -webkit-border-radius: 1.25vw; border-radius: 1.25vw; }
+html body #scatter article figure.mobile img { padding: 7.5vh 1.25vw; background: #363636; -moz-border-radius: 2.5vw; -webkit-border-radius: 2.5vw; border-radius: 2.5vw; }
+html body #scatter article figure.desktop img { border-top: 3.75vh solid #363636; -moz-border-radius: 0.75vw 0.75vw 0 0; -webkit-border-radius: 0.75vw; border-radius: 0.75vw 0.75vw 0 0; }

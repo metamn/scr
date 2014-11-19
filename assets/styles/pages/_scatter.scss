@@ -1,0 +1,24 @@
+html {
+  body {
+    #scatter {
+      article {
+        background: #f1f1f1;
+        $color: hsl(0, 0%, 21%);
+
+        figure {
+          &.tablet {
+            @include mockups('tablet', $color);
+          }
+
+          &.mobile {
+            @include mockups('mobile', $color);
+          }
+
+          &.desktop {
+            @include mockups('desktop', $color);
+          }
+        }
+      }
+    }
+  }
+}
