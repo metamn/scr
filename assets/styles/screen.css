@@ -21,10 +21,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /* No files to import found in structures/**\/* */
 html body section h3 { display: none; }
 html body section article { display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */ display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */ display: -ms-flexbox; /* TWEENER - IE 10 */ display: -webkit-flex; /* NEW - Chrome */ display: flex; /* NEW, Spec - Opera 12.1, Firefox 20+ */ -webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-box-pack: center; -ms-flex-pack: center; -webkit-justify-content: center; -moz-justify-content: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; -webkit-align-items: center; -moz-align-items: center; align-items: center; }
-html body section article figure { padding: 10vh 2.5vw; }
+html body section article figure { display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */ display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */ display: -ms-flexbox; /* TWEENER - IE 10 */ display: -webkit-flex; /* NEW - Chrome */ display: flex; /* NEW, Spec - Opera 12.1, Firefox 20+ */ padding: 10vh 2.5vw; }
 html body section article figure img { max-width: 100%; height: auto; }
+html body section article figure figcaption { margin: 10vh 2.5vw; padding: 10vh 2.5vw; }
 
-html body #iorad article { background: #3B485F; }
-html body #iorad article figure.tablet img { padding: 2.5vw; background: #5a6e92; -moz-border-radius: 0.75vw; -webkit-border-radius: 0.75vw; border-radius: 0.75vw; }
-html body #iorad article figure.mobile img { padding: 7.5vh 1.25vw; background: #5a6e92; -moz-border-radius: 1.25vw; -webkit-border-radius: 1.25vw; border-radius: 1.25vw; }
+html body #iorad article figure.tablet img { padding: 3.75vw; background: #5a6e92; -moz-border-radius: 1.25vw; -webkit-border-radius: 1.25vw; border-radius: 1.25vw; }
+html body #iorad article figure.mobile img { padding: 7.5vh 1.25vw; background: #5a6e92; -moz-border-radius: 2.5vw; -webkit-border-radius: 2.5vw; border-radius: 2.5vw; }
 html body #iorad article figure.desktop img { border-top: 3.75vh solid #5a6e92; -moz-border-radius: 0.75vw 0.75vw 0 0; -webkit-border-radius: 0.75vw; border-radius: 0.75vw 0.75vw 0 0; }
+html body #iorad article figure figcaption { font-size: 150%; }
+html body #iorad article figure figcaption p { margin-top: 1.25em; }

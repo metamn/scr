@@ -2,7 +2,7 @@ html {
   body {
     #iorad {
       article {
-        background: #3B485F;
+        //background: #3B485F;
         $color: #5A6E92;
 
         figure {
@@ -18,9 +18,17 @@ html {
             @include mockups('desktop', $color);
           }
 
+          figcaption {
+            //color: #5A6E92;
+            font-size: 150%;
+
+            p {
+              margin-top: 1.25em;
+            }
+          }
+
         }
       }
     }
-
   }
 }

@@ -1,9 +1,9 @@
 @mixin mockups($device, $color) {
   @if ($device == 'tablet') {
     img {
-      padding: 2.5vw;
+      padding: 3.75vw;
       background: $color;
-      @include border-radius(.75vw);
+      @include border-radius(1.25vw);
     }
   }
 
@@ -11,7 +11,7 @@
     img {
       padding: 7.5vh 1.25vw;
       background: $color;
-      @include border-radius(1.25vw);
+      @include border-radius(2.5vw);
     }
   }
 

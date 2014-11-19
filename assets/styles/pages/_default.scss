@@ -9,11 +9,17 @@ html {
         @include flexbox($wrap: wrap, $justify-content: center, $align-items: center);
 
         figure {
+          @include flexbox;
           padding: 10vh 2.5vw;
 
           img {
             max-width: 100%;
             height: auto;
+          }
+
+          figcaption {
+            margin: 10vh 2.5vw;
+            padding: 10vh 2.5vw;
           }
         }
       }
