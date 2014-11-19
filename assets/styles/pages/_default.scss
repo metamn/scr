@@ -17,7 +17,7 @@ html {
 
         &#iorad {
           //background: #729227;
-          background: #fff;
+          background: #3B485F;
           width: 100vw;
           height: 100vh;
           margin: 0;
@@ -34,7 +34,8 @@ html {
           }
 
           p {
-            display: none;
+            //display: none;
+            color: hsl(158, 100%, 36%);
           }
         }
       }
