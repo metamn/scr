@@ -1,0 +1,26 @@
+html {
+  body {
+    #iorad {
+      article {
+        background: #3B485F;
+        $color: #5A6E92;
+
+        figure {
+          &.tablet {
+            @include mockups('tablet', $color);
+          }
+
+          &.mobile {
+            @include mockups('mobile', $color);
+          }
+
+          &.desktop {
+            @include mockups('desktop', $color);
+          }
+
+        }
+      }
+    }
+
+  }
+}

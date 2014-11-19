@@ -1,0 +1,24 @@
+@mixin mockups($device, $color) {
+  @if ($device == 'tablet') {
+    img {
+      padding: 2.5vw;
+      background: $color;
+      @include border-radius(.75vw);
+    }
+  }
+
+  @if ($device == 'mobile') {
+    img {
+      padding: 7.5vh 1.25vw;
+      background: $color;
+      @include border-radius(1.25vw);
+    }
+  }
+
+  @if ($device == 'desktop') {
+    img {
+      border-top: 3.75vh solid $color;
+      @include border-radius(.75vw .75vw 0 0);
+    }
+  }
+}

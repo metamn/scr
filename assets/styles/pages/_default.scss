@@ -1,48 +1,22 @@
 html {
-
   body {
-    #works {
+    section {
       h3 {
         display: none;
       }
 
       article {
-        &#iorad {
-          background: #3B485F;
+        @include flexbox($wrap: wrap, $justify-content: center, $align-items: center);
 
-          @include flexbox($wrap: wrap, $justify-content: center, $align-items: center);
+        figure {
+          padding: 10vh 2.5vw;
 
-          figure {
-            padding: 10vh 2.5vw;
-
-            &.tablet.landscape {
-              img {
-                padding: 2.5vw;
-                background: #5A6E92;
-                @include border-radius(.75vw);
-              }
-            }
-
-            &.mobile.portrait {
-              img {
-                background: #5A6E92;
-                padding: 7.5vh 1.25vw;
-                @include border-radius(1.25vw);
-              }
-            }
-
-            &.desktop {
-              img {
-                border-top: 3.75vh solid #5A6E92;
-                @include border-radius(.75vw .75vw 0 0);
-              }
-            }
-
+          img {
+            max-width: 100%;
+            height: auto;
           }
-
         }
       }
     }
-
   }
 }
